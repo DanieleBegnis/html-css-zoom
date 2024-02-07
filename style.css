@@ -44,7 +44,8 @@ main {
     padding: 0 60px;
     display: flex;
     flex-wrap: wrap;
-    height: calc(100%-160px);
+    height: calc(100vh - 160px);
+    overflow-y: auto;
 }
 .card {
     padding: 0 4px; 
@@ -55,6 +56,15 @@ main {
     position: absolute;
     left: 4px;
     bottom: 4px;
+    padding: 4px;
     z-index: 1;
     background-color: #4f4f4f98;
+}
+
+/*-------------------
+    FOOTER
+-------------------*/
+footer {
+    height: 60px;
+    background-color: #222222;
 }
