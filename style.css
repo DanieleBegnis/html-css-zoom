@@ -14,6 +14,24 @@ body {
     background-color: #000;
     color: #fff;
 }
+ /*-------------------
+    GRID
+-------------------*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.row > * {
+    padding: 0 10px;
+}
+.column-33 {
+    width: calc(100% / 3);
+}
+.column-50 {
+    width: 50%;
+}
 
 /*-------------------
     HEADER
@@ -72,6 +90,10 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+.input {
+    display: flex;
+    justify-content: space-between;
+}
 .audio {
     position: relative;
     height: 50px;
@@ -96,4 +118,42 @@ footer {
     right: 0;
     top: 50%;
     font-size: small;
+}
+.video {
+    position: relative;
+    height: 50px;
+    width: 100px;
+}
+.fa-video {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+.middle-buttons {
+    display: flex;
+    justify-content: center;
+}
+.add {
+    position: relative;
+    height: 50px;
+    width: 100px;
+}
+.fa-user-plus {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+.end {
+    color: red;
+    background-color: #4f4f4f98;
+    height: 60px;
+    line-height: 60px;
+    font-size: small;
+    padding: 0 10px;
 }
