@@ -12,8 +12,27 @@
 -------------------*/
 body {
     background-color: #000;
+    color: #fff;
 }
 
 /*-------------------
     HEADER
 -------------------*/
+header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+}
+.btn {
+    background-color: #4f4f4f;
+    border-radius: 2px;
+    padding: 4px;
+    height: 26px;
+}
+header .btn{
+    margin-top: 6px;
+}
+header .btn:first-child {
+    margin-right: 4px;
+}
