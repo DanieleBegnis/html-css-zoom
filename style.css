@@ -37,6 +37,9 @@ body {
 .middle {
     flex-grow: 2;
 }
+.end {
+    justify-content: flex-end;
+}
 /*-------------------
     HEADER
 -------------------*/
