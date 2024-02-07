@@ -20,8 +20,7 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -10px;
-    margin-right: -10px;
+    justify-content: space-between;
 }
 .row > * {
     padding: 0 10px;
@@ -32,7 +31,9 @@ body {
 .column-50 {
     width: 50%;
 }
-
+.column-8 {
+    width: calc(100% / 8);
+}
 /*-------------------
     HEADER
 -------------------*/
@@ -92,9 +93,9 @@ footer {
 }
 .input {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-.audio {
+.audio-video {
     position: relative;
     height: 50px;
     width: 100px;
@@ -118,11 +119,6 @@ footer {
     right: 0;
     top: 50%;
     font-size: small;
-}
-.video {
-    position: relative;
-    height: 50px;
-    width: 100px;
 }
 .fa-video {
     position: absolute;
