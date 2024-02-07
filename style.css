@@ -34,6 +34,9 @@ body {
 .column-8 {
     width: calc(100% / 8);
 }
+.middle {
+    flex-grow: 2;
+}
 /*-------------------
     HEADER
 -------------------*/
@@ -95,10 +98,13 @@ footer {
     display: flex;
     justify-content: space-around;
 }
-.audio-video {
+.button {
     position: relative;
     height: 50px;
     width: 100px;
+}
+.green {
+    color: green;
 }
 .fa-microphone {
     position: absolute;
