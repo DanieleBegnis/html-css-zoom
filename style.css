@@ -36,3 +36,24 @@ header .btn{
 header .btn:first-child {
     margin-right: 4px;
 }
+
+/*-------------------
+    MAIN
+-------------------*/
+main {
+    padding: 0 60px;
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(100%-160px);
+}
+.card {
+    padding: 0 4px; 
+    position: relative;
+}
+.name {
+    position: absolute;
+    left: 4px;
+    bottom: 4px;
+    z-index: 1;
+    background-color: #4f4f4f98;
+}
