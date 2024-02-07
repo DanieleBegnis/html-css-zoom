@@ -49,6 +49,7 @@ main {
 .card {
     padding: 0 4px; 
     position: relative;
+    padding-top: 16px;
 }
 .name {
     position: absolute;
